@@ -20,7 +20,7 @@ int main() {
 
 
     
-    if(sum1 = sum2 || sum3 = sum4 || sum5=sum6) printf("Valid");
+    if((sum1 = sum2 || sum3 = sum4) || (sum5=sum6)) printf("Valid");
     else{
         printf("Invalid");
     }
