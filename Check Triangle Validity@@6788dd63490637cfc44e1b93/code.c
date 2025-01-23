@@ -17,8 +17,6 @@ int main() {
     int sum4 = y;
     int sum5 = y+z;
     int sum6 = x;
-
-
     
     if((sum1 = sum2 || sum3 = sum4) || (sum5=sum6)) {
         printf("Valid");
