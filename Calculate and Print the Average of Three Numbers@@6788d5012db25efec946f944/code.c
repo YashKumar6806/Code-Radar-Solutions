@@ -4,7 +4,11 @@
 
 int main() {
     int x,y,z;
-    scanf("%d %d %d",&x,&y,&z);
-    printf("Average: %d",x+y+z/3);
+    scanf("%d",&x);
+    scanf("%d",&y);
+    scanf("%d",&z);
+
+    int avg = x+y+z/3;
+    printf("Average: %.2f",sum);
     return 0;
 }+
