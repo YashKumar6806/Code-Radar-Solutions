@@ -11,12 +11,14 @@ int main() {
     int x = a*a;
     int y = b*b;
     int z = c*c;
+    int sum = a+b;
+    int sum1 = z;
+
     
-    if(int x+y = z) printf("Valid");
+    if(sum = sum1) printf("Valid");
     else{
         printf("Invalid");
     }
-
     return 0;
 }
 
