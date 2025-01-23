@@ -10,4 +10,4 @@ int main() {
 
     printf("Average: %.2f",x+y+z/3);
     return 0;
-}+
+}
