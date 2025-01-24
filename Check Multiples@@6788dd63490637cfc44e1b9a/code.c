@@ -8,7 +8,9 @@ int main() {
     scanf("%d",&n2);
 
     if(n1%n2==0)printf("Yes");
-    if else(n1%n2!=0) printf("No");
+    else{
+        printf("No");
+    }
     
     return 0;
 }
