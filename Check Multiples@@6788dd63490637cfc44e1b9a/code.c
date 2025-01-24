@@ -4,11 +4,11 @@
 
 int main() {
     int n1,n2;
-    scanf("%f",&n1);
-    scanf("%f",&n2);
+    scanf("%d",&n1);
+    scanf("%d",&n2);
 
     if(n1%n1==0)printf("Yes");
-    else printf("No");
+    if else(n1%n2!=0)printf("No");
     
     return 0;
 }
