@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&n2);
 
     
-    if(n1 = n2*n2) print("Yes");
+    if(n1 = n2*n2) printf("Yes");
     else{
         printf("No");
     }
