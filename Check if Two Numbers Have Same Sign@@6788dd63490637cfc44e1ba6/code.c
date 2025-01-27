@@ -7,6 +7,7 @@ int main() {
     scanf("%d",&n2);
 
     if(n1<0 && n2<0) printf("Same Sign");
+    else if(n1>0 && n2>0) printf("Same Sign");
     else printf("Different Sign");
     return 0;    
 }
