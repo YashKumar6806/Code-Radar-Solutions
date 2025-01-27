@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
 
     
-    if(n==1)printf("Monday");
+    if (n==1)printf("Monday");
     else if(n==2) printf("Tuesday");
     else if(n==3) printf("Wednesday");
     else if (n==4) printf("Thursday");
