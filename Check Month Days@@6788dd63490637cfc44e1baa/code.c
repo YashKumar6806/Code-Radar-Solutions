@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d",&n);
+    int month;
 
-    if(n==1)printf("31");
-    else if (n==2)printf("28");
-    else if (n==3)printf("31");
-    else if(n==4)printf("30");
-    else if (n==5)printf("31");
-    else if(n==6)printf("30");
-    else if (n==7)printf("31");
-    else if (n==8)printf("31");
-    else if (n==9)printf("30");
-    else if (n==10)printf("31");
-    else if(n==11)printf("30");
-    else if (n==12)printf("31");
+
+    scanf("%d", &month);
+
+    if (month == 1 || month == 3 || month == 5 || month == 7 || 
+        month == 8 || month == 10 || month == 12) {
+        printf("31");
+    } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+        printf("30");
+    } else if (month == 2) {
+        printf("28");
+    } else {
+        printf("Invalid month");
+    }
+
     return 0;
 }
