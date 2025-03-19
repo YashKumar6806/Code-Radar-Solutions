@@ -1,13 +1,16 @@
 // Your code here...
 
-int bubbleSort(int arr[],int n){
-    int max = arr[0];
+void bubbleSort(int arr[],int n){
     for(int i=0;i<n;i++){
-        if(arr[i]<max){
-            max = arr[i];
+        for(int j=i+1;j<n+1;j++){
+            if(a[i]<a[j]){
+                temp = a[j];
+                a[j] = a[i];
+                a[i] = temp;
+            }
         }
     }
-    return max;
+    
 
 }
 
