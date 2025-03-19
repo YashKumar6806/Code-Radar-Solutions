@@ -10,5 +10,4 @@ void isPrime(int num){
         else printf("0");
     }
     i++;
-    return i;
 }
