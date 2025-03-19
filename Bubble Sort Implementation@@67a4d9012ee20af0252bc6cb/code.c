@@ -10,20 +10,6 @@ int sort(int a[100],int b){
     }
     return max;
 }
-int main(){
-    int x[100],y;
-    scanf("%d",&y);
-    for(int i=0;i<y;i++){
-        scanf("%d",&x[i]);
-    }
-    int result = sort(x,y);
-    printf("%d",result);
-    return 0;
-}
-
-
-
-
 
 
 
