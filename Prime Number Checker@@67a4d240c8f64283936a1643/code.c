@@ -1,5 +1,5 @@
 // Your code here...
-void isPrime(int num){
+int isPrime(int num){
     int i;
     if(num == 0) return 1;
     else if(num == 1) return 0;
