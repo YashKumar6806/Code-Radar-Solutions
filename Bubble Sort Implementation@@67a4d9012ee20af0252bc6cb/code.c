@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+
 int sort(int a[100],int b){
     int max =a[0];
     for(int i=0;i<b;i++){
@@ -17,6 +18,7 @@ int main(){
     }
     int result = sort(x,y);
     printf("%d",result);
+    return 0;
 }
 
 
