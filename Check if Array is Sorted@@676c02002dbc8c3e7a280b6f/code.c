@@ -2,14 +2,14 @@
 
 int main() {
     int n;
-    printf("Enter length for array: ");
+
     scanf("%d", &n);
 
     int a[n];
     int temp;
 
 
-    printf("Enter elements of the array: \n");
+
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
@@ -43,11 +43,11 @@ int main() {
     }
 
 
-    printf("Sorted array: \n");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", a[i]);
-    }
-    printf("\n");
+   // printf("Sorted array: \n");
+    //for (int i = 0; i < n; i++) {
+      //  printf("%d ", a[i]);
+    //}
+    //printf("\n")
 
     return 0;
 }
