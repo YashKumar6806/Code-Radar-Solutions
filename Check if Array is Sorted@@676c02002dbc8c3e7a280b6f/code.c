@@ -50,7 +50,7 @@ int main() {
     if (isSortedDescending) {
         printf("Sorted\n");  // If the array is sorted in descending order
     } else if (isSortedAscending) {
-        printf("Not Sorted\n");  // If the array is sorted in ascending order
+        printf("Sorted\n");  // If the array is sorted in ascending order
     } else {
         printf("Not Sorted\n");  // If the array is not sorted
     }
