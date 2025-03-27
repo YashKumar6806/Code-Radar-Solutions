@@ -1,21 +1,19 @@
-// Your code here...
-#include<stdio.h>
-
+#include <stdio.h>
 
 int main() {
     int n;
     printf("Enter length for array: ");
     scanf("%d", &n);
-    
+
     int a[n];
     int temp;
-    
+
 
     printf("Enter elements of the array: \n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
-    
+
 
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
@@ -29,7 +27,7 @@ int main() {
     }
 
   
-    int i
+    int isSorted = 1; 
     for (int i = 0; i < n - 1; i++) {
         if (a[i] > a[i + 1]) {
             isSorted = 0; 
@@ -43,7 +41,7 @@ int main() {
     } else {
         printf("Not Sorted\n");
     }
-    
+
 
     printf("Sorted array: \n");
     for (int i = 0; i < n; i++) {
@@ -53,32 +51,4 @@ int main() {
 
     return 0;
 }
-
-
- 
-
-
-
-
-
-
-
-
-
-      
-
-       
-     
-     
-
-
-
-
-
-
-
-
-
-
-   
 
