@@ -16,7 +16,7 @@ int main(){
                 a[i]=a[j];
                 a[j]=temp;
                 printf("Sorted");
-            else{
+            else {
                 printf("Not Sorted");
 
             }
