@@ -12,6 +12,9 @@ int main(){
             printf("NO");
             break;
         }
+        else if(a[i]==7){
+            printf("YES");
+        }
         else{
             printf("YES");
             break;
