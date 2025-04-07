@@ -12,13 +12,13 @@ int main(){
     for(int i=1;i<n;i++){
         if(a[i]<max){
             min=a[i];
-            printf("%d ",min);
         }
         if(a[i]>max){
             max=a[i];
-            printf("%d ",max);
         }
     }
+    printf("%d ",min);
+    printf("%d ".max);
 
 
 }
