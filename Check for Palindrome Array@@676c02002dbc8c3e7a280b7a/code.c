@@ -11,5 +11,8 @@ int main(){
         if(a[i]!=a[n-1-i]){
             printf("NO");
         }
-}
+        else{
+            printf("YES");
+        }
+    }
 }
