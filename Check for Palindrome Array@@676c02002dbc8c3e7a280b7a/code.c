@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<n/2;i++){
         if(a[i]!=a[n-1-i]){
             printf("NO");
-            
+            break;
         }
         else if(a[i]==7){
             printf("YES");
