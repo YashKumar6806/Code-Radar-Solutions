@@ -11,11 +11,11 @@ int main(){
     for(int i=1;i<n;i++){
         if(a[i]>max){
             max=a[i];
-            printf("%d",max);
+            printf("%d ",max);
         }
         else if(a[i]<max){
             max=a[i];
-            printf("%d",max);
+            printf("%d ",max);
         }
     }
 
