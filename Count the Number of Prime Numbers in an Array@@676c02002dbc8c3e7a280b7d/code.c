@@ -23,4 +23,22 @@ int main() {
             isPrime = 0;  // 0 and 1 are not prime numbers
         } else {
             // Check divisibility from 2 to sqrt(num)
-            for (int j = 2; j <= sqrt(num);
+            for (int j = 2; j <= sqrt(num); j++) {
+                if (num % j == 0) {
+                    isPrime = 0;  // num is divisible by j, so it's not prime
+                    break;
+                }
+            }
+        }
+
+        // If the number is prime, increment the prime count
+        if (isPrime) {
+            primeCount++;
+        }
+    }
+
+    // Print the total number of prime numbers
+    printf("%d\n", primeCount);
+
+    return 0;
+}
