@@ -8,6 +8,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     int count=0;
+    int count1=count;
     for(int i=0;i<n/2;i++){
         if(a[i]!=a[n-1-i]){
             count+=1;
@@ -16,5 +17,5 @@ int main(){
             count+=1;
         }
     }
-    printf("%d",count);
+    printf("%d",count1-n);
 }
