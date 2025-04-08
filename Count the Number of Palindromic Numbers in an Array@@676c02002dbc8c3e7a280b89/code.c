@@ -17,5 +17,5 @@ int main(){
             count+=1;
         }
     }
-    printf("%d",n-count);
+    printf("%d",n-count1);
 }
