@@ -13,7 +13,7 @@ int main(){
             count+=1;
         }
         else if(a[i]>=3){
-            if(a[i]%2==0){
+            if(a[i]%i==0){
                 count+=1;
             }
         }
