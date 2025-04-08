@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
     int n;
@@ -17,17 +16,17 @@ int main() {
     // Loop through each element and check if it's prime
     for (int i = 0; i < n; i++) {
         int num = a[i];
-        int isPrime = 1;  // Assume the number is prime initially
+        int isPrime = 1;
 
         if (num <= 1) {
             isPrime = 0;  // 0 and 1 are not prime numbers
-        } else {
-            // Check divisibility from 2 to sqrt(num)
-            for (int j = 2; j <= sqrt(num); j++) {
-                if (num % j == 0) {
-                    isPrime = 0;  // num is divisible by j, so it's not prime
-                    break;
-                }
+        }
+
+        // Check divisibility from 2 to num-1 (simplified version)
+        for (int j = 2; j < num; j++) {
+            if (num % j == 0) {
+                isPrime = 0;  // num is divisible by j, so it's not prime
+                break;
             }
         }
 
