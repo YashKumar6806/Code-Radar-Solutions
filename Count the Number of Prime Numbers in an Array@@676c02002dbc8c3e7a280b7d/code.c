@@ -1,23 +1,35 @@
 // Your code here... 
-#include<stdio.h>
+#inlcude<stdio.h>
+#include <math.h>
 
-int main(){
+
+int isPrime(int num) {
+    if (num <= 1) {
+        return 0;  
+    }
+    
+    for (int i = 2; i <= sqrt(num); i++) {
+        if (num % i == 0) {
+            return 0; 
+        }
+    }
+    return 1;
+}
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);  
     int a[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&a[i]);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
     }
-    int count=0;
-    for(int i=0;i<n;i++){
-        if(a[i]==2){
-            count+=1;
-        }
-        else if(a[i]>=3){
-            if(a[i]%i==0){
-                count+=1;
-            }
+    int primeCount = 0;
+    for (int i = 0; i < n; i++) {
+        if (isPrime(a[i])) {
+            primeCount++;
         }
     }
-    printf("%d",count);
+    printf("%d\n", primeCount);
+
+    return 0;
 }
