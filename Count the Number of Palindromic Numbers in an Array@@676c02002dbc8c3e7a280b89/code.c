@@ -11,6 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(a[i]!=a[n-1-i]){
             count++;
+            return 0;
         }
     }
     printf("%d",count);
