@@ -11,7 +11,7 @@ int main(){
     int count1=count;
     for(int i=0;i<n/2;i++){
         if(a[i]!=a[n-1-i]){
-            count+=1;
+            count1+=1;
         }
         else{
             count+=1;
