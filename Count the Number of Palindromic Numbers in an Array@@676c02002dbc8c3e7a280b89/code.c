@@ -7,14 +7,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int count=0;
+    int count=n;
     for(int i=0;i<n/2;i++){
         if(a[i]!=a[n-1-i]){
-            count=0;
-        }
-        else{
-            count+=1;
-
+            count--;
         }
     }
     printf("%d",count);
