@@ -1,25 +1,25 @@
-// Your code here...
-#include<stdio.h>
-#include<string.h>
-int main(){
-    char str[100];
-    char temp;
-    scanf("%s",str);
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100], temp;
     char string[100];
-    string[100] = str;
-    int l=0;
-    while(str[l]!=0){
-        l++;
+
+    scanf("%s", str);
+    strcpy(string, str); 
+
+    int l = strlen(str); 
+    for(int i = 0; i < l / 2; i++) {
+        temp = str[i];
+        str[i] = str[l - 1 - i];
+        str[l - 1 - i] = temp;
     }
-    for(int i=0;i<l/2;i++){
-        temp=str[i];
-        str[i]=str[l-1-i];
-        str[l-1-i]=temp;
+
+    if(strcmp(str, string) == 0) {
+        printf("Yes\n");
+    } else {
+        printf("No\n");
     }
-    if(str==string){
-        printf("Yes");
-    }
-    else{
-        printf("No");
-    }
+
+    return 0;
 }
