@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     char str[100];
-    scanf("%99[^\n]",str);
+    scanf("%s",str);
     int count = 0;
     for(int i=0;str[i]!='\0';i++){
         char ch = str[i];
