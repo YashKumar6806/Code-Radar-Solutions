@@ -6,7 +6,7 @@ int main(){
     char temp;
     scanf("%s",str);
     char string[100]
-    string = str;
+    string[100] = str;
     int l=0;
     while(str[l]!=0){
         l++;
