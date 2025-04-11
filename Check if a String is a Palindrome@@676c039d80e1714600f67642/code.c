@@ -4,6 +4,7 @@
 int main(){
     char str[100];
     char string[100];
+    char string=str;
     char temp;
     scanf("%s",str);
     int l=0;
