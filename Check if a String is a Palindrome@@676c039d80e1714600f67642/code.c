@@ -3,9 +3,9 @@
 #include<string.h>
 int main(){
     char str[100];
-    char string[100]=str[100];
     char temp;
     scanf("%s",str);
+    char string[100]=str;
     int l=0;
     while(str[l]!=0){
         l++;
