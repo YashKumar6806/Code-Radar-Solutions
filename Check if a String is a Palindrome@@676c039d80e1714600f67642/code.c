@@ -3,8 +3,7 @@
 #include<string.h>
 int main(){
     char str[100];
-    char string[100];
-    char string=str;
+    char string[100]=str[100];
     char temp;
     scanf("%s",str);
     int l=0;
