@@ -5,7 +5,8 @@ int main(){
     char str[100];
     char temp;
     scanf("%s",str);
-    char string[100]=str;
+    char string[100]
+    string = str;
     int l=0;
     while(str[l]!=0){
         l++;
