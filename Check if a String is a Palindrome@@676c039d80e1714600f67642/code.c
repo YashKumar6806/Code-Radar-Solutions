@@ -6,11 +6,11 @@ int main(){
     char string[100];
     char temp;
     scanf("%s",str);
-    int len=0;
-    while(str[len]!=0){
-        len++;
+    int l=0;
+    while(str[l]!=0){
+        l++;
     }
-    for(int=0;len<l/2;i++){
+    for(int=0;i<l/2;i++){
         temp=str[i];
         str[i]=str[l-1-i];
         str[l-1-i]=temp;
