@@ -10,7 +10,7 @@ int main(){
     while(str[l]!=0){
         l++;
     }
-    for(int=0;i<l/2;i++){
+    for(int i=0;i<l/2;i++){
         temp=str[i];
         str[i]=str[l-1-i];
         str[l-1-i]=temp;
